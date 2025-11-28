@@ -3,8 +3,8 @@ version: 2
 sources:
   - name: feature_store_source
     description: "feature store sources"
-    database: DBT_FS
-    schema: RAW
+    database: FS_DBT_SDURAN_DATABASE
+    schema: FS_DBT_SDURAN_SCHEMA
     tables:
-      - name: transactions
+      - name: fraud_transactions
         description: "transactions including fraudulent data"
